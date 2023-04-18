@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class linked {
     public static void main(String[] args) {
-        LinkedList<String> linkedList = new LinkedList<String>();
+        LinkedList<String> linkedList = new LinkedList<>();
         //linkedList.push("A");
         //linkedList.push("B");
         //linkedList.push("C");
