@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         // linear search = Iterate through a collection one element at a time
         int[] array = {9, 1, 8, 2, 7, 3, 6, 4, 5};
-        int index = linearSearch(array, 10);
+        int index = linearSearch(array);
         if (index != -1){
             System.out.println("Element found at index : " + index);
         } else {
@@ -12,9 +12,9 @@ public class Main {
         }
     }
 
-    private static int linearSearch(int[] array, int value) {
+    private static int linearSearch(int[] array) {
         for (int i = 0; i < array.length; i++){
-            if (array[i] == value){
+            if (array[i] == 10){
                 return i;
             }
         }
